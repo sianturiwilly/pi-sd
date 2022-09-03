@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merahtik"
+    tools:context="com.example.lbssekolahdasar.MainActivity"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginBottom="24dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="LOKASI SD 
+        \tDI BEKASI SELATAN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo_sd" />
+
+    <ImageButton
+        android:id="@+id/keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/info"
+        android:layout_below="@+id/info"
+        android:src="@drawable/keluar" />
+
+    <ImageButton
+        android:id="@+id/masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tentang"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/masuk" />
+
+    <ImageButton
+        android:id="@+id/tentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/info"
+        android:layout_below="@+id/masuk"
+        android:src="@drawable/tentang" />
+
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tentang"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/info" />
+
+</RelativeLayout>
+

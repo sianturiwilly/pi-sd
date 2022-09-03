@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merahtik" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="10dp"
+        android:layout_y="7dp"
+        android:src="@drawable/sd_2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="212dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_x="93dp"
+        android:layout_y="14dp"
+        android:text="SD NEGERI \tBEKASI SELATAN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/jaka_setia5"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/jaka_mulia2"
+        android:layout_below="@+id/jaka_mulia2"
+        android:layout_marginTop="13dp"
+        android:layout_x="32dp"
+        android:layout_y="149dp"
+        android:src="@drawable/jaka_setia5" />
+
+    <ImageButton
+        android:id="@+id/jakasampurna2"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/jaka_mulia2"
+        android:layout_below="@+id/jaka_setia5"
+        android:layout_marginTop="14dp"
+        android:layout_x="32dp"
+        android:layout_y="198dp"
+        android:src="@drawable/jakasampurna2" />
+
+    <ImageButton
+        android:id="@+id/jaka_mulia2"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/jaka_mulia2" />
+
+    <ImageButton
+        android:id="@+id/jati_rasa3"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/jakasampurna2"
+        android:layout_below="@+id/jakasampurna2"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/jati_rasa3" />
+
+    <ImageButton
+        android:id="@+id/marga_jaya4"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/pekayon_jaya6"
+        android:layout_alignLeft="@+id/jati_asih10"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/marga_jaya4" />
+
+    <ImageButton
+        android:id="@+id/jati_asih10"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/jati_rasa3"
+        android:layout_below="@+id/jati_rasa3"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/jatih_asih10" />
+
+    <ImageButton
+        android:id="@+id/pekayon_jaya6"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/marga_jaya4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/pekayon_jaya6" />
+
+    <ImageButton
+        android:id="@+id/kayuringin_jaya3"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/jati_asih10"
+        android:layout_below="@+id/jati_asih10"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/kayuringin_jaya3" />
+
+</RelativeLayout>

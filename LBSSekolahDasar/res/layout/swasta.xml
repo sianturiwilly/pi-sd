@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merahtik" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="204dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_x="98dp"
+        android:layout_y="18dp"
+        android:text="SD SWASTA BEKASI SELATAN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/sd_2" />
+
+    <ImageButton
+        android:id="@+id/anshar"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/al_anshar" />
+
+    <ImageButton
+        android:id="@+id/harapan"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/fransiska"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/harapan_mulia" />
+
+    <ImageButton
+        android:id="@+id/marsud"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/harapan"
+        android:layout_below="@+id/harapan"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/marsud" />
+
+    <ImageButton
+        android:id="@+id/fransiska"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/harapan"
+        android:layout_below="@+id/darussalam"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/fransiska" />
+
+    <ImageButton
+        android:id="@+id/darussalam"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/fransiska"
+        android:layout_centerVertical="true"
+        android:src="@drawable/darussalam" />
+
+    <ImageButton
+        android:id="@+id/ettauhid"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/darussalam"
+        android:layout_alignLeft="@+id/darussalam"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/daret_tauhid" />
+
+</RelativeLayout>

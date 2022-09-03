@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merahtik" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/willy" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="6dp"
+        android:text="Nama	: Prajudi William Chrisdeardo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="60dp"
+        android:text="Tempat,Tgl Lahir	: Jakarta, 19 Januari 1993"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="116dp"
+        android:text="NPM	: 55411549"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="295dp"
+        android:layout_height="164dp"
+        android:layout_x="6dp"
+        android:layout_y="175dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tAplikasi LBS (location Based System) ini bertemakan Sekolah Dasar di wilayah Bekasi Selatan berhubungan saya bertempat tinggal didaerah tersebut oleh karena itu saya mengangkat tema LBS SD di Bekasi Selatan, selain itu aplikasi ini saya buat untuk memenuhi syarat sidang sarjana S1."
+                android:textColor="#ffffff"
+        		android:textSize="20dp"
+        		android:typeface="serif"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="369dp"
+        android:src="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/twit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="165dp"
+        android:layout_y="369dp"
+        android:src="@drawable/twitter" />
+
+</AbsoluteLayout>

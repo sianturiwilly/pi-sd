@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lbssekolahdasar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.lbssekolahdasar.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <android android:name="MainActivity"></android>
+        <activity android:name="masuk"></activity>
+        <activity android:name="tentang"></activity>
+        <activity android:name="info"></activity>
+        <activity android:name="negeri"></activity>
+        <activity android:name="swasta"></activity>
+        <activity android:name="jaka_mulia2"></activity>
+        <activity android:name="jaka_setia5"></activity>
+        <activity android:name="jati_asih10"></activity>
+        <activity android:name="jati_rasa3"></activity>
+        <activity android:name="kayuringin_jaya3"></activity>
+        <activity android:name="jaka_sampurna2"></activity>
+        <activity android:name="marga_jaya4"></activity>
+        <activity android:name="pekayon_jaya6"></activity>
+        <activity android:name="al_anshar"></activity>
+        <activity android:name="daret_tauhid"></activity>
+        <activity android:name="darussalam"></activity>
+        <activity android:name="fransiska"></activity>
+        <activity android:name="harapan_mulia"></activity>
+        <activity android:name="marsudirini"></activity>
+    </application>
+
+</manifest>

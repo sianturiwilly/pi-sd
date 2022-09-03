@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merahtik" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_sd" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="194dp"
+        android:layout_height="70dp"
+        android:layout_x="108dp"
+        android:layout_y="14dp"
+        android:text="INFORMASI APLIKASI LBS SD"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="21dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="284dp"
+        android:layout_height="314dp"
+        android:layout_x="20dp"
+        android:layout_y="130dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tPada aplikasi LBS Sekolah Dasar ini mencangkup kecamatan Bekasi Selatan dari sebuah kota Bekasi, dan pada aplikasi di tapilan awal terrdapat 4 menu pilihan yaitu :
+                \n
+                \n>Menu Masuk : Untuk memilih Tipe SD nya ( Negeri atau Swasta )
+                \n>Menu Tentang : Berisikan biodata pembuat aplikasi agar mengenal lebih jauh lagi
+                \n>Menu Info : Berisikan sebuah informasi serta penggunaan aplikasinya tersebut
+                \n>Menu Keluar : Dimana pengguna akan mengakhiri aplikasinya
+               	\n
+                \n  
+  Lalu pada tampilan kedua yaitu pengguna aplikasi akan diminta memilih Sekolah Dasarnya berdasarkan tipe Negeri maupun Swasta, Setelah itu jika sudah memilih dari menu pilihan Negeri atau Swasta pengguna akan disajikan kembali tampilan untuk memilih Sekolah Dasarnya, dan Terakhir setelah itu maka pada tampilan Sekolah Dasar yang telah dipilih oleh pengguna terdapat sebuah informasi alamat, contact person dan tombol LBS yang langsung tertuju kepada sekolahannya tersebut melalui maps."
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</AbsoluteLayout>
